@@ -1,4 +1,5 @@
-.header__logo {
+.header__logo .logo__href,
+.footer__logo .logo__href {
   height: 44px;
   display: flex;
   align-items: center;

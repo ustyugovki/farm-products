@@ -10,7 +10,7 @@ export const TitleSize = {
 
 function Title({children, size}) {
   return (
-    <span className={`logo__title title${size ? ` title__${size}` : ""}`}>{children}</span>
+    <span className={`logo__title title${size ? ` title--${size}` : ""}`}>{children}</span>
   );
 }
 
