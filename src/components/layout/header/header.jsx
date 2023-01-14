@@ -7,7 +7,9 @@ import Nav from '../nav/nav';
 function Header() {
   return (
     <header className="header">
-      <Logo />
+      <div className="header__logo logo">
+        <Logo />
+      </div>
       <Nav />
     </header>
   );
