@@ -1,5 +1,29 @@
-.App {
-  text-align: center;
-  color: #61dafb;
-  background-color: #282c34;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+html {
+  height: 100%;
+}
+
+body,
+html {
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  box-sizing: border-box;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  /* line-height: 27px; */
+  /* 27 / 18 = 15 */
+  line-height: 1.5;
+  color: #333333;
 }

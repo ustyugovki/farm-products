@@ -2,12 +2,10 @@ import React from 'react';
 
 import './App.css';
 
+import PageWrapper from '../layout/page-wrapper/page-wrapper';
+
 function App() {
-  return (
-    <div className="App">
-      <h1>Farm Products App on React</h1>
-    </div>
-  );
+  return <PageWrapper />;
 }
 
 export default App;

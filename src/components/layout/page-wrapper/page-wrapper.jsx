@@ -1,8 +1,12 @@
 import React from "react";
 import "./page-wrapper.css";
 
+import Header from '../header/header';
+
 function PageWrapper() {
-  return <></>;
+  return (<>
+    <Header />
+  </>);
 }
 
 export default PageWrapper;
