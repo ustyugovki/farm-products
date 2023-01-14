@@ -16,8 +16,8 @@ html {
 }
 
 body {
-  display: block;
-  box-sizing: border-box;
+  /* display: block; */
+  /* box-sizing: border-box; */
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -26,4 +26,21 @@ body {
   /* 27 / 18 = 15 */
   line-height: 1.5;
   color: #333333;
+}
+
+/* Sticky Footer with CSS3 Flexbox */
+/* body {} */
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+header,
+footer {
+    flex-shrink: 0;
 }
