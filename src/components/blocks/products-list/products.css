@@ -1,0 +1,44 @@
+.products {
+  padding-left: 90px;
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 1280px;
+  min-height: 761px;
+}
+
+.products__wrapper .title--default {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 64px;
+  width: 714px;
+  min-height: 41px;
+}
+
+.products__list {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 64px;
+  list-style-type: none;
+
+  display: grid;
+  grid-template-columns: 585px 585px;
+  gap: 20px;
+}
+
+/* все четные элементы списка */
+.products__list li:nth-child(even) {
+  background-color: #F8DDD7;
+}
+
+/* все нечетные элементы списка */
+.products__list li:nth-child(2n+1) {
+  background-color: #E1EDCE;
+}
+
+.products__wrapper .button {
+  margin: 0 auto;
+  width: 260px;
+  min-height: 60px;
+  color: #FFFFFF;
+  background-color: #E5E5E5;
+}

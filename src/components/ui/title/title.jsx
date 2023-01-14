@@ -4,7 +4,7 @@ import "./title.css";
 export const TitleSize = {
   BIG: 'big',
   SMALL: 'small',
-  DEFAULT: '',
+  DEFAULT: 'default',
   LOGO: 'logo'
 }
 

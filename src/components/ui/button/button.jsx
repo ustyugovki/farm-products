@@ -3,7 +3,7 @@ import "./button.css";
 
 function Button({children}) {
   return (
-    <button type="button" className="menu__button button">
+    <button type="button" className="button">
       {children}
     </button>
   );
