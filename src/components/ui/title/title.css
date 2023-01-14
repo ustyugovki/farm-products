@@ -19,3 +19,15 @@
   /* 32 / 28 = 1.5 */
   line-height: 1.14;
 }
+
+.title--big {
+  font-weight: 700;
+  font-size: 44px;
+  /* line-height: 51px; */
+  /* 51 / 44 = 1.159 */
+  line-height: 1.159;
+}
+
+.title--small {
+  font-size: 28px;
+}
