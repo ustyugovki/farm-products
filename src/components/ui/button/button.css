@@ -25,13 +25,3 @@
   cursor: pointer;
 }
 
-.menu__button {
-  width: 260px;
-  min-height: 60px;
-  color: #FFFFFF;
-  background-color: #FC9B27;
-}
-
-.menu__button:hover {
-  background-color: #FC7427;
-}
