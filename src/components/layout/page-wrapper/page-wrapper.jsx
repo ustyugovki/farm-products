@@ -3,6 +3,7 @@ import "./page-wrapper.css";
 
 import Header from '../header/header';
 import Footer from '../footer/footer';
+import MainPage from '../../pages/main-page/main-page';
 
 function PageWrapper() {
   return (
@@ -10,6 +11,7 @@ function PageWrapper() {
     <Header />
 
     <main className='main'>
+      <MainPage />
     </main>
 
     <Footer />
