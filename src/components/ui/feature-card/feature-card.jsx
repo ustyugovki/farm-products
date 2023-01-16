@@ -4,7 +4,10 @@ import "./feature-card.css";
 import Title, { TitleSize } from '../title/title';
 
 // Карточка с преимуществами
-function FeatureCard() {
+function FeatureCard({image, about}) {
+  console.log('test_image: ', image);
+  console.log('test_about: ', about);
+
   return (
     <section className="feature">
       <header className="feature__header">
@@ -12,7 +15,7 @@ function FeatureCard() {
           className="feature__img"
           width={56}
           height={56}
-          src="https://i.ibb.co/xGg2GfP/eat-1.png"
+          src={image}
           alt="Еда намного вкуснее"
         />
         <div>

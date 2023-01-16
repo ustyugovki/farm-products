@@ -4,11 +4,11 @@ import "./main-page.css";
 import About from '../../blocks/about/about';
 import Products from '../../blocks/products-list/products';
 
-function MainPage() {
+function MainPage({productList}) {
   return (
     <>
       <About />
-      <Products />
+      <Products productList={productList} />
     </>
   );
 }
