@@ -5,17 +5,17 @@ import Header from '../header/header';
 import Footer from '../footer/footer';
 import MainPage from '../../pages/main-page/main-page';
 
-function PageWrapper() {
+function PageWrapper({productList}) {
   return (
-  <>
-    <Header />
+    <>
+      <Header />
 
-    <main className='main'>
-      <MainPage />
-    </main>
+      <main className='main'>
+        <MainPage productList={productList}/>
+      </main>
 
-    <Footer />
-  </>);
+      <Footer />
+    </>);
 }
 
 export default PageWrapper;

@@ -24,11 +24,12 @@
   margin-right: 20px;
 }
 
-/* .feature_negative {
+.feature_negative {
   background-color: #f8ddd7;
-} */
+}
 
-.feature__owner {
+.feature__owner,
+.feature__owner_negative {
   display: inline-block;
   min-height: 25px;
   margin-bottom: 4px;

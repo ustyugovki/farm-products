@@ -4,7 +4,8 @@ import "./feature-card.css";
 import Title, { TitleSize } from '../title/title';
 
 // Карточка с преимуществами
-function FeatureCard() {
+function FeatureCard({title, about, image, feature, featureTitle}) {
+
   return (
     <section className="feature">
       <header className="feature__header">
@@ -12,18 +13,16 @@ function FeatureCard() {
           className="feature__img"
           width={56}
           height={56}
-          src="https://i.ibb.co/xGg2GfP/eat-1.png"
-          alt="Еда намного вкуснее"
+          src={image}
+          alt={title}
         />
         <div>
-          <span className="feature__owner">Фермерские продукты</span>
-          <Title size={TitleSize.SMALL}>Еда намного вкуснее</Title>
+          <span className={feature}>{featureTitle}</span>
+          <Title size={TitleSize.SMALL}>{title}</Title>
         </div>
       </header>
       <p className="feature__text">
-        Домашняя колбаса из&nbsp;мяса, соли и&nbsp;специй и&nbsp;колбаса
-        из&nbsp;магазина&nbsp;&mdash; два настолько разных продукта, что они
-        даже не&nbsp;родственники
+        {about}
       </p>
     </section>
   );
